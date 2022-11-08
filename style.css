@@ -123,7 +123,7 @@ section{
     width: 1000px;
     margin: 0 auto;
 }
-#about-us header{
+#about_us header{
     align-items: center;
 }
 
@@ -204,4 +204,163 @@ h2{
     justify-content: center;
     display: flex;
 }
+#categories header{
+    align-items: center;
+}
 
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    grid-template-rows: repeat(2,400px);
+    grid-column-gap: 56px;
+    grid-row-gap: 40px;
+}
+
+.color_back3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    background: #F9BDBD;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+    align-items: center;
+}
+
+.color_back3 p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 16px;
+}
+
+
+#sn-button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background: none;
+    padding: 8px 19px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    
+    
+}
+
+#fon2 {
+    background: #F7DEA6;
+}
+
+#fon2 img {
+    padding-left: 20%;
+}
+
+#fon3 {
+    background: #A8DCEC;
+}
+
+#fon3 img {
+    padding-left: 20%;
+}
+
+#fon4 {
+    background: #F9BDBD;
+}
+
+#fon4 img {
+    padding-left: 24%;
+}
+
+#fon5 {
+    background: #F7DEA6;
+}
+
+#fon5 img {
+    padding-left: 8%;
+    padding-top: 15%;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: 240px 240px 384px;
+    grid-template-rows: 500px;
+    grid-column-gap: 44px;
+}
+
+#test {
+    height: 320px;
+    width: 240px;
+}
+
+#review {
+    height: 280px;
+    width: 384px;
+} 
+
+.testimony nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.testimony nav ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+#prev a {
+    color: #C4C4C4;
+}
+#next img {
+    transform: rotate(-180deg);
+}
+
+.email {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 150px;
+}
+
+.email p {
+    font-size: 18px;
+    justify-content: center;
+}
+
+.email input {
+    border: 1px solid #DAA520;
+    border-radius: 2px;
+    padding: 8px 24px;
+    width: 330px;
+    z-index: 0;
+    margin-top: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.email button {
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 24px;
+    z-index: 1;
+    margin-left: -30px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+ 
+footer p {
+    text-align: center;
+}
