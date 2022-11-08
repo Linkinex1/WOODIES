@@ -1,0 +1,207 @@
+body{
+    font-family: 'Nunito';
+    display: grid;
+}
+.navbar {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+    height: 30px;
+}
+
+#logo figcaption{
+    font-size: 24px;
+    color: #3E3F43;
+    font-weight: bold;
+    margin-left: 8px;
+    letter-spacing: 0.25em;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 110px;
+    width: 100%;
+    padding: 0;
+    height: 30px;
+}
+
+.navbar ul li a{
+    font-style: normal;
+    color: rgba(34, 34, 34, 0.75);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.navbar ul li.active a{
+    color: #DAA520;
+}
+
+.navbar ul li a.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border: 1px solid rgba(34, 34, 34, 0.75);
+    border-radius: 8px;
+    padding: 9px 36px;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+}
+
+header span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+header button{
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+}
+
+#header__back{
+    background: #F9BDBD;
+    width: 770px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+}
+
+#color__back2{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 180px;
+    top: 970px;
+    left: 400px;
+    background: #F7DEA6;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    z-index: -1;
+}
+
+.container img {
+    margin-top: 30px;
+}
+
+section{
+    width: 1000px;
+    margin: 0 auto;
+}
+#about-us header{
+    align-items: center;
+}
+
+#what_we_are_text{
+    font-size: 36px;
+    margin-left: 10px;
+}
+#what_we_are_logo{
+    color:rgba (137, 121, 66, 0.5);
+}
+h2{
+    font-weight: 800;
+    font-size: 72px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+    line-height: 98px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: 380px;
+    width: 500px;
+    max-width: 500px;
+}
+
+#backfigure{
+    z-index: -1;
+}
+
+#section_text span {
+   float: right;
+   font-size: 36px;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+
+#section_text p{
+    font-size: 24px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 650px 350px;
+    grid-template-rows: 380px;
+    
+}
+
+#section_text2 span{
+    float: left;
+    font-size: 36px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+#section_text2 p{
+    font-size: 24px;
+}
+
+#fourth img{
+    float: right;
+}
+
+.line{
+    margin-left: 10px;
+}
+
+#how_it_works header{
+    align-items: center;
+
+}
+#how_it_works button{
+    color: white;
+    background: #DAA520;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
