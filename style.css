@@ -364,3 +364,21 @@ h2{
 footer p {
     text-align: center;
 }
+
+
+.slider{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.slider__item{
+    width: 40px;
+    height: 8px;
+    background: #E5E5E5;
+    border-radius: 8px;
+}
+
+.slider__item a:hover{
+    background-color: #DAA520;
+    transition: .2;
+}
